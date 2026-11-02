@@ -1,0 +1,12 @@
+Electricity Fraud Detection - Streamlit deployment package
+
+Main app: app.py
+Required dependencies: requirements.txt
+Pre-trained model: models/fraud_model.joblib
+Feature processing code: src/features.py
+Demo/upload CSVs: data/samples/
+
+The large raw and processed training datasets are intentionally excluded.
+They are not required to run the existing app with its saved trained model.
+To deploy: upload this folder's CONTENTS to a GitHub repository, then deploy
+app.py from https://share.streamlit.io/ using Streamlit Community Cloud.
